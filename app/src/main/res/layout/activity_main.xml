@@ -12,13 +12,23 @@
             android:layout_width="match_parent"
             android:theme="@style/AppTheme.AppBarOverlay">
 
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Test"
-                android:fontFamily="@font/kanit"/>
 
     </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
