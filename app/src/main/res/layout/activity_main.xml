@@ -5,30 +5,48 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
-
-    <com.google.android.material.appbar.AppBarLayout
-            android:layout_height="56dp"
-            android:layout_width="match_parent"
-            android:theme="@style/AppTheme.AppBarOverlay">
+        tools:context=".MainActivity"
+        android:theme="@style/MainAppTheme"
+        android:background="@color/colorBackgroud"
+>
 
 
-    </com.google.android.material.appbar.AppBarLayout>
 
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <ScrollView
+        <FrameLayout
+                android:id="@+id/main_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="56dp" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/navigation"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="15dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="@color/colorPrimary"
+                android:theme="@style/BottomAppTheme"
+                app:itemIconSize="22dp"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/navigation"
+                android:layout_gravity="bottom"
+        />
+
+    </RelativeLayout>
+
+    <FrameLayout
+            android:id="@+id/main_modal_frame"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
-        <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+            android:layout_marginBottom="0dp" />
 
 
-        </RelativeLayout>
 
-    </ScrollView>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

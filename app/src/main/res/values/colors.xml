@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FFC107</color>
-    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorPrimary">#A770EF</color>
+    <color name="colorPrimaryBase">#efe9f7</color>
+
+    <color name="colorPrimaryDark">#8c4ede</color>
+
+    <color name="colorSecond">#FDB99B</color>
+    <color name="colorSecondBase">#fff7f4</color>
+
+    <color name="colorSecondDark">#de906e</color>
+    <color name="colorSecondVeryDark">#875038</color>
+
+    <color name="colorBackgroud">#EDEDED</color>
+
+
     <color name="colorAccent">#FF4081</color>
     <color name="colorSkyBlue">#62D0D5</color>
 
@@ -14,7 +26,13 @@
     <color name="facebookColor">#3B5998</color>
 
     <color name="colorText">#939393</color>
+    <color name="colorTextDark">#585858</color>
     <color name="colorTabInActiveText">#99ffffff</color>
+
+    <color name="colorLightStatusBar">#e4e4e4</color>
+    <color name="colorLightNavigationBar">#d2d2d2</color>
+
+
 
     <color name="colorStatusBarTran">#3c000000</color>
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_first"
+        android:icon="@drawable/ic_newspaper"
+        android:title="บันทึกการเลี้ยง" />
+
+    <item
+        android:id="@+id/navigation_second"
+        android:icon="@drawable/ic_qr_code_2"
+        android:title="สแกน QR" />
+
+    <item
+            android:id="@+id/navigation_third"
+            android:icon="@drawable/ic_circular_chart"
+            android:title="ภาพรวม" />
+
+    <item
+            android:id="@+id/navigation_fourth"
+            android:icon="@drawable/ic_menu"
+            android:title="เพิ่มเติม" />
+
+
+
+
+</menu>
